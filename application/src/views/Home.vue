@@ -18,17 +18,6 @@
       >
       </Cards>
 
-      <v-parallax src="@/assets/parallax.jpg">
-        <v-layout
-          column
-          align-center
-          justify-center
-          class="black-text"
-        >
-        <h1 class="black--text mb-2 display-1 text-center">Machine Learning Microservices</h1>
-        </v-layout>
-      </v-parallax>
-
       <Contact></Contact>
 
     </div>

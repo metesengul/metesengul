@@ -2,14 +2,14 @@
 
   <v-container class="py-12">
 
+    <v-row justify="center"><h2 class="px-4 headline text-center">Contact me</h2></v-row>
+
     <v-row justify="center">
 
       <div style="width:450px">
 
-        <v-card flat class="transparent mx-10 pa-0">
-          <v-card-title class="justify-center">
-            Contact me
-          </v-card-title>
+        <v-card flat class="transparent mx-10 pa-0 mt-6">
+          
           <v-card-actions class="px-0">
             <v-row class="px-0">
               <v-col class="px-0">
@@ -50,7 +50,7 @@
 
       <div>
 
-        <v-card class="mx-xs-2 mx-sm-10 mx-md-10 pa-6" max-width="500" elevation="4">
+        <v-card class="mx-xs-2 mx-sm-10 mx-md-10 pa-6 mt-10" max-width="500" elevation="4">
 
           <v-list>
             <v-list-item>

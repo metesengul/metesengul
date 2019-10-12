@@ -22,13 +22,6 @@
           </v-list-item-content>
         </v-list-item>
 
-        <v-list-item href="https://colab.research.google.com/drive/1Vw2IHmoLWRjUUnrK2RleZwBGSmHjIdZS">
-          <v-list-item-content>
-            <v-list-item-title>Iris Classification</v-list-item-title>
-            <v-list-item-subtitle>Notebook</v-list-item-subtitle>
-          </v-list-item-content>
-        </v-list-item>
-
         <v-list-item href="https://colab.research.google.com/drive/1N3He3BxOW6qyWTHbib2YmvdCrNllztW9">
           <v-list-item-content>
             <v-list-item-title>IMDB Sentiment Analysis</v-list-item-title>
