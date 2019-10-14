@@ -8,7 +8,7 @@
 
       <div style="width:450px">
 
-        <v-card flat class="transparent mx-10 pa-0 mt-6">
+        <v-card flat class="transparent mx-10 pa-0 mt-4">
           
           <v-card-actions class="px-0">
             <v-row class="px-0">

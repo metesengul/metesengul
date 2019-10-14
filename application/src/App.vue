@@ -67,7 +67,7 @@
     </v-content>
 
     <v-footer>
-      <span >&copy; 2019</span>
+      <span>&copy; 2019</span>
     </v-footer>
 
   </v-app>
@@ -79,7 +79,7 @@ export default {
     source: String
   },
   data: () => ({
-    drawer: false
+    drawer: null
   })
 }
 </script>
