@@ -50,7 +50,7 @@
 
       <div>
 
-        <v-card class="mx-xs-2 mx-sm-10 mx-md-10 pa-6 mt-10" max-width="500" elevation="4">
+        <v-card class="mx-xs-2 mx-sm-10 mx-md-10 pa-6 mt-10 mx-4" max-width="500" elevation="4">
 
           <v-list>
             <v-list-item>
@@ -75,7 +75,7 @@
               </v-list-item-action>
               <v-list-item-content>
                 <v-list-item-title>mustafametesengul</v-list-item-title>
-                <v-list-item-title>@gmail</v-list-item-title>
+                <v-list-item-title>@gmail.com</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-list>
