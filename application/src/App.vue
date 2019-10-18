@@ -6,7 +6,7 @@
       app
     >
       <v-list>
-        <v-subheader>Web Applications</v-subheader>
+        <v-subheader><v-icon left>mdi-laptop</v-icon>Web Applications</v-subheader>
         <v-list-item href="https://metesengul-iris-classification.web.app/">
           <v-list-item-content>
             <v-list-item-title>Iris Classification</v-list-item-title>
@@ -16,7 +16,7 @@
 
         <v-divider></v-divider>
 
-        <v-subheader>Notebooks</v-subheader>
+        <v-subheader><v-icon left>mdi-notebook-outline</v-icon>Notebooks</v-subheader>
 
         <v-list-item href="https://colab.research.google.com/drive/1GNGpq5KxjIBqCE9lQWZo2jpfg0dnjJ2L">
           <v-list-item-content>
@@ -56,7 +56,7 @@
 
         <v-divider></v-divider>
 
-        <v-subheader>Other</v-subheader>
+        <v-subheader><v-icon left>mdi-link</v-icon>Other</v-subheader>
 
         <v-list-item href="https://play.google.com/store/apps/details?id=com.studiophi.grid">
           <v-list-item-content>
@@ -75,7 +75,7 @@
         <v-list-item href="https://github.com/metesengul/sheet">
           <v-list-item-content>
             <v-list-item-title>Sheet</v-list-item-title>
-            <v-list-item-subtitle>Python midi processor</v-list-item-subtitle>
+            <v-list-item-subtitle>Midi processing script</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
 
