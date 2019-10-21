@@ -66,7 +66,7 @@
                 <v-icon color="grey darken-3">mdi-map-marker</v-icon>
               </v-list-item-action>
               <v-list-item-content>
-                <v-list-item-title>Istanbul, TR</v-list-item-title>
+                <v-list-item-title>Istanbul, Turkey</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <v-list-item>
