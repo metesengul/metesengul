@@ -9,7 +9,7 @@
     <v-row justify="center">
       <div  v-for="item in items" :key="item.title" >
 
-        <v-card class="ma-4 pa-8" max-width="380" elevation="4">
+        <v-card class="ma-4 pa-8" max-width="380" raised="true">
           <v-card-text v-if="item.icon" class="text-center">
             <v-icon x-large :class="item.color">{{item.icon}}</v-icon>
           </v-card-text>
