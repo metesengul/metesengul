@@ -23,7 +23,7 @@
 
       <div>
 
-        <v-card class="mx-6 py-6 px-10" width="230" raised="true">
+        <v-card class="mx-6 py-6 px-10" width="220" raised="true">
           <v-card-title class="justify-center">
             Links
           </v-card-title>
