@@ -1,9 +1,9 @@
 <template>
   <v-app>
-
     <v-navigation-drawer
       v-model="drawer"
       app
+      clipped
     >
       <v-list>
         <v-subheader><v-icon left>mdi-laptop</v-icon>Web Applications</v-subheader>
@@ -84,31 +84,50 @@
 
     <v-app-bar
       app
-      elevate-on-scroll
-      height="70"
+      clipped-left
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+
       <v-toolbar-title>Mete Şengül</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <v-btn icon>
+        <v-icon>mdi-magnify</v-icon>
+      </v-btn>
+      
     </v-app-bar>
 
     <v-content>
-      <router-view></router-view>
+      <Home></Home>
     </v-content>
 
-    <v-footer>
-      <span>&copy; 2019</span>
-    </v-footer>
+    <v-footer app>
+      <span>
 
+        <v-btn href="https://github.com/metesengul" class="white--text" text small><v-icon left dark small>mdi-github-circle</v-icon>GitHub</v-btn>
+        <v-btn href="https://www.linkedin.com/in/metesengul/" class="blue--text" text small><v-icon left dark small>mdi-linkedin</v-icon>LinkedIn</v-btn>
+        <v-btn href="https://drive.google.com/file/d/10eHJebk5UNwbkhCFx2emYCBU5WnXJvWm/view?usp=sharing" class="primary--text" text small>Resume</v-btn>
+      </span>
+    </v-footer>
   </v-app>
 </template>
 
 <script>
-export default {
-  props: {
-    source: String
-  },
-  data: () => ({
-    drawer: null
-  })
-}
+  import Home from '@/components/Home'
+
+  export default {
+    props: {
+      source: String,
+    },
+    components: {
+      Home
+    },
+    data: () => ({
+      drawer: true,
+    }),
+    created () {
+      this.$vuetify.theme.dark = true
+    },
+  }
 </script>
