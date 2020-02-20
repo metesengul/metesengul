@@ -4,7 +4,7 @@
 
     <br>
     <span class="display-3">Hello,</span>
-    <v-row class="my-4">
+    <v-row dense class="my-4">
       <v-col cols="12" sm="6">
         <p>
           I'm Mete. I am a junior computer engineer at Istanbul University, 
@@ -27,7 +27,7 @@
       <v-col cols="12" sm="6">
 
         <span class="display-3">Experience</span>
-        <v-row class="my-4">
+        <v-row dense class="my-4">
           <v-col cols="12" sm="12" md="8" lg="6" xl="4" v-for="(item, i) in experience" :key="i">
             <v-card>
               <v-card-text>
@@ -56,7 +56,7 @@
       <v-col cols="12" sm="6">
 
         <span class="display-3">Education</span>
-        <v-row class="my-4">
+        <v-row dense class="my-4">
           <v-col cols="12" sm="12" md="8" lg="6" xl="4" v-for="(item, i) in education" :key="i">
             <v-card>
               <v-card-text>
@@ -86,7 +86,7 @@
 
 
     <span class="display-3">Projects</span>
-    <v-row class="my-4">
+    <v-row dense class="my-4">
       <v-col cols="12" sm="6" md="4" lg="3" xl="2" v-for="(item, i) in projects" :key="i">
         <v-card>
           <v-img
@@ -116,7 +116,7 @@
       <v-col cols="12" sm="6">
         
         <span id="skills" class="display-3">Skills</span>
-        <v-row class="my-4">
+        <v-row dense class="my-4">
           <v-col cols="12" sm="12" md="8" lg="6" xl="4" v-for="(item, i) in skills" :key="i">
             <v-card>
               <v-card-text >
@@ -132,7 +132,7 @@
       <v-col cols="12" md="6">
 
         <span id="skills" class="display-3">Courses</span>
-        <v-row class="my-4">
+        <v-row dense class="my-4">
           <v-col cols="12" sm="12" md="8" lg="6" xl="4" v-for="(item, i) in courses" :key="i">
             <v-card>
               <v-card-text >
