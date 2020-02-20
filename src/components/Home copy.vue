@@ -29,37 +29,6 @@
 
     </v-row>
 
-    <span class="display-3">Education</span>
-    <v-row dense class="my-4">
-
-      <v-col cols=12 sm=6 md=6 lg=6 xl=4 v-for="(edu, i) in education" :key="i">
-        
-        <v-card>
-          <v-card-text>
-            <div>{{edu.company}}</div>
-            <p class="title text--primary">
-              {{edu.title}}
-            </p>
-            <p>{{edu.date}}</p>
-            <div class="text--primary">
-              {{edu.text}}
-            </div>
-          </v-card-text>
-          <v-card-actions>
-            <v-btn
-              text
-              color="accent"
-              :href="edu.link"
-            >
-              {{edu.button}}
-            </v-btn>
-          </v-card-actions>
-        </v-card>
-
-      </v-col>
-
-    </v-row>
-
     <span class="display-3">Experience</span>
     <v-row dense class="my-4">
 
@@ -129,10 +98,9 @@
         <v-card>
 
           <v-card-title >
-            {{skill.title}}
+            {{skill}}
           </v-card-title>
-          <v-card-text class="text--primary" v-html="skill.text">
-          </v-card-text>
+
         </v-card>
 
       </v-col>
@@ -148,70 +116,46 @@ export default {
 
   data: () => ({
 
-    skills: [
+    slides: [
       {
-        title: 'Machine Learning',
-        text:
-          `
-          SVM <br> 
-          K-Nearest Neighbors <br>
-          Decision Trees <br>
-          Feature Engineering <br>
-          Regression Models <br>
-          Computer Vision
-          `
+        text:'Microservices',
+        color:'indigo'
       },
       {
-        title: 'Deep Learning',
-        text:
-          `
-          Convolutional Neural Networks <br>
-          Recurrent Neural Networks <br>
-          Generative Adversarial Networks <br>
-          Object Detection <br>
-          Image Segmentation
-          `
+        text:'Machine Learning',
+        color:'warning'
       },
       {
-        title: 'Python',
-        text:
-          `
-          OpenCV <br> 
-          NumPy <br> 
-          Pandas <br>
-          Scikit-Learn <br> 
-          Matplotlib <br>
-          Keras <br> 
-          Tensorflow <br> 
-          Flask
-          `
+        text:'Web Development',
+        color:'pink darken-2'
       },
       {
-        title: 'Web Development',
-        text:
-          `
-          Google Cloud Platform <br>
-          Firebase <br>
-          Git <br>
-          Docker <br>
-          Vue.js <br>
-          `
+        text:'Python',
+        color:'red lighten-1'
       },
-
+      {
+        text:'Google Cloud',
+        color:'deep-purple accent-4'
+      },
     ],
 
-    education: [
-      {
-        company: 'Istanbul University',
-        title: 'Computer Engineering Undergraduate',
-        date: 'September 2017 – Present',
-        link: 'https://istanbulc.edu.tr/en/_',
-        button: 'Website',
-        text:
-          `
-          Junior, current GPA: 3.32
-          `
-      },  
+    skills: [
+      "Computer Vision",
+      "Image Segmentation", "Object Detection",
+      "SVM", 
+      "K-Nearest Neighbors",
+      "Decision Trees",
+      "Regression Models",
+      "Convolutional Networks",
+      "Recurrent Networks",
+      "Python",
+      "OpenCV", "Pandas",
+      "Scikit-Learn",
+      "Tensorflow",
+      "Flask",
+      "Google Cloud Platform",
+      "Firebase",
+      "Git", "Docker", "C++", "Linux", "Vue.js", "Unity",
     ],
 
     experience: [
@@ -222,13 +166,11 @@ export default {
         link: 'https://www.4dsight.com/',
         button: 'Website',
         text:
-          `
-          Worked on integrating ads into live stream gameplays as if they are part of
+          `Worked on integrating ads into live stream gameplays as if they are part of
           the content, making ad formats nonintrusive and authentic. Used Tensorflow,
           OpenCV, deep segmentation models and feature extraction methods to place
           advertisements in realtime. Helped the computer vision team with preprocessing and researching. Developed a program using Unity and C# to collect
-          the necessary data.
-          `
+          the necessary data.`
       },
       {
         company: 'Iceberg Technologies',
@@ -237,13 +179,20 @@ export default {
         link: 'https://iceberg-technologies.com/',
         button: 'Website',
         text:
-          `
-          Worked on locating Diabetic Retinopathy (also known as diabetic eye
+          `Worked on locating Diabetic Retinopathy (also known as diabetic eye
           disease) lesions in fundus images. Used state-of-the-art convolutional
           neural networks to find microaneurysms with better accuracy and precision.
-          Implemented research papers and learned leadership.
-          `
+          Implemented research papers and learned leadership.`
       },
+      {
+        company: 'Istanbul University',
+        title: 'Computer Engineering Undergraduate',
+        date: 'September 2017 – Present',
+        link: 'https://istanbulc.edu.tr/en/_',
+        button: 'Website',
+        text:
+          `Junior, current GPA: 3.32`
+      },  
       {
         company: 'Coursera',
         title: 'Neural Networks and Deep Learning Certification',
@@ -251,36 +200,33 @@ export default {
         link: 'https://www.coursera.org/account/accomplishments/certificate/PEUQLHY9RNBC',
         button: 'Certificate',
         text:
-          `
-          Neural Networks and Deep Learning by deeplearning.ai on Coursera. 
-          Certificate earned at Tuesday, July 3, 2018 11:18 AM GMT
-          `
+          `Neural Networks and Deep Learning by deeplearning.ai on Coursera. Certificate earned at Tuesday, July 3, 2018 11:18 AM GMT`
       },     
     ],
 
     projects: [
       {
-        title: 'Generating music using LSTM Networks and Keras Functional API',
-        image: 'https://www.researchgate.net/profile/Wentao_Zhu4/publication/283748925/figure/fig1/AS:613966967484434@1523392540658/The-proposed-deep-LSTM-network-with-three-LSTM-layers-and-two-feedforward-layers-For.png',
-        link: 'https://colab.research.google.com/drive/1t-1-bULaPG5uEhj6-3SMHzUj1OZ91SWS',
+        title:'Generating music using LSTM Networks and Keras Functional API',
+        image:'https://www.researchgate.net/profile/Wentao_Zhu4/publication/283748925/figure/fig1/AS:613966967484434@1523392540658/The-proposed-deep-LSTM-network-with-three-LSTM-layers-and-two-feedforward-layers-For.png',
+        link:'https://colab.research.google.com/drive/1t-1-bULaPG5uEhj6-3SMHzUj1OZ91SWS',
         date: 'October 2018 – December 2018'
       },
       {
-        title: 'Iris Classification Web Application',
-        image: 'https://seedsnpots.com/wp-content/uploads/2018/12/iris-professor-blaw.jpg',
-        link: 'https://metesengul-iris-classification.web.app/',
+        title:'Iris Classification Web Application',
+        image:'https://seedsnpots.com/wp-content/uploads/2018/12/iris-professor-blaw.jpg',
+        link:'https://metesengul-iris-classification.web.app/',
         date: 'October 2019 – November 2019'
       },
       {
-        title: 'Training a Convolutional Neural Network on the MNIST dataset',
-        image: 'https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Plot-of-a-Subset-of-Images-from-the-MNIST-Dataset.png',
-        link: 'https://colab.research.google.com/drive/1GNGpq5KxjIBqCE9lQWZo2jpfg0dnjJ2L#scrollTo=EX8z3w-4tdux',
+        title:'Training a Convolutional Neural Network on the MNIST dataset',
+        image:'https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Plot-of-a-Subset-of-Images-from-the-MNIST-Dataset.png',
+        link:'https://colab.research.google.com/drive/1GNGpq5KxjIBqCE9lQWZo2jpfg0dnjJ2L#scrollTo=EX8z3w-4tdux',
         date: 'May 2018 – July 2018'
       },
       {
-        title: 'Sentiment analysis of IMDB movie reviews using LSTM Recurrent Neural Networks',
-        image: 'https://www.listchallenges.com/f/lists/62d312cf-d718-4513-a842-ecc04637c55a.jpg',
-        link: 'https://colab.research.google.com/drive/1N3He3BxOW6qyWTHbib2YmvdCrNllztW9#scrollTo=FYJ_sJgNRf2_',
+        title:'Sentiment analysis of IMDB movie reviews using LSTM Recurrent Neural Networks',
+        image:'https://www.listchallenges.com/f/lists/62d312cf-d718-4513-a842-ecc04637c55a.jpg',
+        link:'https://colab.research.google.com/drive/1N3He3BxOW6qyWTHbib2YmvdCrNllztW9#scrollTo=FYJ_sJgNRf2_',
         date: 'March 2017 – May 2017'
       },
     ],

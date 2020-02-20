@@ -5,7 +5,7 @@
       flat
       app
       clipped-left
-      height=50
+      height=60
       style="background: rgba(15,15,15,0.85); backdrop-filter: blur(30px);"
     >
       <img class="mr-3" :src="require('@/assets/metesengul.png')" height="40"/>
