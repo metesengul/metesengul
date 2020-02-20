@@ -36,9 +36,7 @@
                   {{item.title}}
                 </p>
                 <p>{{item.date}}</p>
-                <div class="text--primary">
-                  {{item.text}}
-                </div>
+                <div v-html="item.text" class="text--primary"></div>
               </v-card-text>
               <v-card-actions>
                 <v-btn
@@ -67,9 +65,7 @@
                   {{item.title}}
                 </p>
                 <p>{{item.date}}</p>
-                <div class="text--primary">
-                  {{item.text}}
-                </div>
+                <div v-html="item.text" class="text--primary"></div>
               </v-card-text>
               <v-card-actions>
                 <v-btn
@@ -200,7 +196,7 @@ export default {
         link: 'https://istanbulc.edu.tr/en/_',
         text:
           `
-          Junior, Current GPA: 3.32
+          Year: Junior <br> Current GPA: 3.32
           `
       },  
     ],
@@ -277,9 +273,18 @@ export default {
           Google Cloud Platform <br>
           Firebase <br>
           Microservices  <br>
+          Vue.js <br>
           Git <br>
           Docker <br>
-          Vue.js <br>
+          `
+      },
+      {
+        title: 'Software Development',
+        text:
+          `
+          Linux <br>
+          Unity, C# <br>
+          Beginner level C, C++, Java<br>
           `
       },
 
@@ -294,7 +299,6 @@ export default {
           Differential Equations <br>
           Linear Algebra <br>
           Discrete Mathematics <br>
-          Abstract Algebra <br>
           Statistics <br>
           Automata Theory <br>
           Digital Design <br>
@@ -309,9 +313,9 @@ export default {
           `
           Neural Networks and Deep
           Learning Certificate,
-          deeplearning.ai, Coursera <br> <br>
+          deeplearning.ai, Coursera <br>  <br>
 
-          Machine Learning, Stanford <br> <br>
+          Machine Learning, Stanford <br>  <br>
 
           Introduction to Computational
           Thinking and Data Science, MIT,
@@ -321,7 +325,7 @@ export default {
           H. Winston <br> <br>
 
           CS50: Introduction to Computer
-          Science, Harvard, David J. Malan <br> <br>
+          Science, Harvard, David J. Malan
           `
       },
     ]

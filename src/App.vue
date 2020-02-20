@@ -2,11 +2,9 @@
   <v-app>
     
     <v-app-bar
-      flat
       app
-      clipped-left
       height=50
-      style="background: rgba(15,15,15,0.85); backdrop-filter: blur(30px);"
+      color="grey darken-4"
     >
       <img class="mr-3" :src="require('@/assets/metesengul.png')" height="40"/>
       <v-toolbar-title>Mete Şengül</v-toolbar-title>
