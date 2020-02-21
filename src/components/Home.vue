@@ -8,15 +8,15 @@
       <v-col cols="12" sm="6">
         <p>
           I'm Mete. I am a junior computer engineer at Istanbul University, 
-          studying <span class="primary--text">Machine Learning</span> and <span class="secondary--text">Artifical Neural Networks.</span>
+          studying <span class="primary--text">Machine Learning</span> and <span class="secondary--text">Artificial Neural Networks.</span>
         </p>
       </v-col>
       <v-col cols="12" sm="6">
         <p>
-          Developed many projects on Supervised Learning, 
+          Developed many projects on Supervised Learning,
           earned certificates on Deep Neural Networks and 
-          created my own optimization algorithms.
-          Participated in HashCode, Kaggle and HackerRank competitions.
+          created optimization algorithms. 
+          Participated in HashCode, Kaggle and HackerRank competitions. 
         </p>
       </v-col>
     </v-row>
