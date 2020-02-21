@@ -238,7 +238,6 @@ export default {
           Decision Trees <br>
           Feature Engineering <br>
           Regression Models <br>
-          Computer Vision
           `
       },
       {
@@ -276,13 +275,13 @@ export default {
           Vue.js <br>
           Git <br>
           Docker <br>
+          Linux <br>
           `
       },
       {
         title: 'Software Development',
         text:
           `
-          Linux <br>
           Unity, C# <br>
           Beginner level C, C++, Java<br>
           `
