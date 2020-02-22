@@ -129,7 +129,7 @@
 
       </v-col>
 
-      <v-col cols="12" md="6">
+      <v-col cols="12" sm="6">
 
         <span id="skills" class="display-3">Courses</span>
         <v-row dense class="my-4">
