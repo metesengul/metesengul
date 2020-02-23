@@ -1,5 +1,3 @@
 # Metesengul
 
-Vue source codes of my website.
-
-Website: https://metesengul.web.app/
+Vue files of my website. https://metesengul.web.app/
