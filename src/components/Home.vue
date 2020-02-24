@@ -203,16 +203,16 @@ export default {
 
     projects: [
       {
-        title: 'Generating music using LSTM Networks and Keras Functional API',
-        image: 'https://www.researchgate.net/profile/Wentao_Zhu4/publication/283748925/figure/fig1/AS:613966967484434@1523392540658/The-proposed-deep-LSTM-network-with-three-LSTM-layers-and-two-feedforward-layers-For.png',
-        link: 'https://colab.research.google.com/drive/1t-1-bULaPG5uEhj6-3SMHzUj1OZ91SWS',
-        date: 'October 2018 – December 2018'
-      },
-      {
         title: 'Iris classification web application using Keras, Flask and Vue',
         image: 'https://seedsnpots.com/wp-content/uploads/2018/12/iris-professor-blaw.jpg',
         link: 'https://metesengul-iris-classification.web.app/',
         date: 'October 2019 – November 2019'
+      },
+      {
+        title: 'Generating music using LSTM Networks and Keras Functional API',
+        image: 'https://www.researchgate.net/profile/Wentao_Zhu4/publication/283748925/figure/fig1/AS:613966967484434@1523392540658/The-proposed-deep-LSTM-network-with-three-LSTM-layers-and-two-feedforward-layers-For.png',
+        link: 'https://colab.research.google.com/drive/1t-1-bULaPG5uEhj6-3SMHzUj1OZ91SWS',
+        date: 'October 2018 – December 2018'
       },
       {
         title: 'Training a Convolutional Neural Network on the MNIST dataset',
