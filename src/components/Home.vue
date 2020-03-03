@@ -196,7 +196,7 @@ export default {
         link: 'https://istanbulc.edu.tr/en/_',
         text:
           `
-          Year: Junior <br> Current GPA: 3.32
+          Year <br> Junior <br><br> Current GPA <br> 3.32
           `
       },  
     ],
