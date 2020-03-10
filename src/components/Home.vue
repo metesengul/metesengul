@@ -57,7 +57,7 @@
 
         <span class="display-3">Education</span>
         <v-row dense class="my-4">
-          <v-col cols="12" sm="12" md="12" lg="10" xl="6" v-for="(item, i) in education" :key="i">
+          <v-col cols="12" sm="12" md="12" lg="12" xl="8" v-for="(item, i) in education" :key="i">
             <v-card>
               <v-card-text>
                 <div>{{item.company}}</div>
