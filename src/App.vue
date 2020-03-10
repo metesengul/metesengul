@@ -19,7 +19,7 @@
         class="text-center"
         cols="12"
       >
-        <v-btn href="https://github.com/metesengul" class="grey--text" text small><v-icon left dark small>mdi-github-circle</v-icon>GitHub</v-btn>
+        <v-btn href="https://github.com/metesengul" class="grey--text" text small><v-icon left dark small>mdi-github</v-icon>GitHub</v-btn>
         <v-btn href="https://www.linkedin.com/in/metesengul/" class="accent--text" text small><v-icon left dark small>mdi-linkedin</v-icon>LinkedIn</v-btn>
         <v-btn href="https://drive.google.com/file/d/10eHJebk5UNwbkhCFx2emYCBU5WnXJvWm/view?usp=sharing" class="primary--text" text small><v-icon left dark small>mdi-account</v-icon>Resume</v-btn> 
         <br>
