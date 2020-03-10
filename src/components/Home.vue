@@ -205,7 +205,7 @@ export default {
       {
         title: 'Iris classification web application using Keras, Flask and Vue',
         image: 'https://seedsnpots.com/wp-content/uploads/2018/12/iris-professor-blaw.jpg',
-        link: 'https://metesengul-iris-classification.web.app/',
+        link: 'https://iris-classification.web.app/',
         date: 'October 2019 – November 2019'
       },
       {
