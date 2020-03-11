@@ -215,17 +215,30 @@ export default {
         date: 'October 2018 – December 2018'
       },
       {
+        title: 'Sentiment analysis of IMDB movie reviews using LSTM Recurrent Neural Networks',
+        image: 'https://www.listchallenges.com/f/lists/62d312cf-d718-4513-a842-ecc04637c55a.jpg',
+        link: 'https://colab.research.google.com/drive/1N3He3BxOW6qyWTHbib2YmvdCrNllztW9#scrollTo=FYJ_sJgNRf2_',
+        date: 'March 2017 – May 2017'
+      },
+      {
         title: 'Training a Convolutional Neural Network on the MNIST dataset',
         image: 'https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Plot-of-a-Subset-of-Images-from-the-MNIST-Dataset.png',
         link: 'https://colab.research.google.com/drive/1GNGpq5KxjIBqCE9lQWZo2jpfg0dnjJ2L#scrollTo=EX8z3w-4tdux',
         date: 'May 2018 – July 2018'
       },
       {
-        title: 'Sentiment analysis of IMDB movie reviews using LSTM Recurrent Neural Networks',
-        image: 'https://www.listchallenges.com/f/lists/62d312cf-d718-4513-a842-ecc04637c55a.jpg',
-        link: 'https://colab.research.google.com/drive/1N3He3BxOW6qyWTHbib2YmvdCrNllztW9#scrollTo=FYJ_sJgNRf2_',
-        date: 'March 2017 – May 2017'
+        title: 'Building my own neural network library from scratch using NumPy and Python',
+        image: 'https://cv-tricks.com/wp-content/uploads/2018/09/Neural-Network-Architecures.jpg',
+        link: 'https://github.com/metesengul/synaptic',
+        date: 'July 2016 – June 2018'
       },
+      {
+        title: 'Using Dense Neural Networks on Boston housing price regression problem',
+        image: 'https://smallcaps.com.au/wp-content/uploads/2019/05/Australia%E2%80%99s-house-price-downturn-behind-us-640x400.jpg',
+        link: 'https://colab.research.google.com/drive/1JvDb2IlS1f863J2BJTjr5oQ7e0h7Lv5M',
+        date: 'May 2018 – July 2018'
+      },
+      
     ],
 
     skills: [
@@ -301,9 +314,9 @@ export default {
           Statistics <br>
           Automata Theory <br>
           Digital Design <br>
-          Microprocessors <br>
           Computer Organization <br>
-          Data Structures
+          Microprocessors <br>
+          Artificial Intelligence
           `
       },
       {
@@ -311,20 +324,15 @@ export default {
         text:
           `
           Neural Networks and Deep
-          Learning Certificate,
-          deeplearning.ai, Coursera <br>  <br>
+          Learning (Certificate by
+          deeplearning.ai on Coursera) <br>
 
-          Machine Learning, Stanford <br>  <br>
+          Machine Learning (Stanford) <br>
+
+          Artificial Intelligence (MIT) <br>
 
           Introduction to Computational
-          Thinking and Data Science, MIT,
-          John Guttag <br> <br>
-
-          Artificial Intelligence, MIT, Patrick
-          H. Winston <br> <br>
-
-          CS50: Introduction to Computer
-          Science, Harvard, David J. Malan
+          Thinking and Data Science (MIT) <br>
           `
       },
     ]
